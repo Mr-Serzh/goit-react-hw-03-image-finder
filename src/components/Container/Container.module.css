@@ -10,13 +10,8 @@ li {
 }
 
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
-  padding: 20px 15px;
-  height: 100vh;
-
-  background-color: #e7ecf2;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 16px;
+  padding-bottom: 24px;
 }

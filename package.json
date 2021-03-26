@@ -1,8 +1,8 @@
 {
-  "name": "react-app",
+  "name": "goit-react-hw-03-image-finder",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Mr-Serzh.github.io/react-app",
+  "homepage": "https://Mr-Serzh.github.io/goit-react-hw-03-image-finder",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
@@ -43,8 +43,12 @@
     ]
   },
   "devDependencies": {
+    "axios": "^0.21.0",
     "husky": "^4.3.5",
     "lint-staged": "^10.5.3",
-    "prettier": "^2.2.1"
+    "prettier": "^2.2.1",
+    "prop-types": "^15.7.2",
+    "react-loader-spinner": "^3.1.14",
+    "react-toastify": "^6.2.0"
   }
 }
