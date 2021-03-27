@@ -5,7 +5,7 @@ import s from './Error.module.css';
 export default function Error({ texterror }) {
   return (
     <div role="alert" className={s.wrapper}>
-      <img src={noImage} width="550" alt="sadcat" />
+      <img src={noImage} width="350" alt="noImage" />
       <p text={texterror} className={s.text}>
         {texterror}
       </p>
